@@ -1,0 +1,364 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.hero-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    color: #555;
+}
+
+.store-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+.features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.feature-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.feature-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 30%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.analytics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.analytics-image {
+    flex: 1;
+    text-align: center;
+}
+
+.analytics-image img {
+    max-width: 100%;
+}
+
+.analytics-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.analytics-text h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.analytics-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.analytics-text li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.analytics-text span {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #6c63ff;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Savings Goals Section */
+.savings-goals {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.savings-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.savings-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.savings-text h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.savings-text p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.savings-features {
+    list-style: none;
+    padding: 0;
+}
+
+.savings-features li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.savings-features span {
+    margin-right: 10px;
+    color: #6c63ff;
+}
+
+.savings-image {
+    flex: 1;
+    text-align: center;
+}
+
+.savings-image img {
+    max-width: 100%;
+}
+
+/* CTA Section */
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cta-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.cta-text h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.cta-text p {
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.store-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cta-image {
+    flex: 1;
+    text-align: center;
+}
+
+.cta-image img {
+    max-width: 100%;
+}
+/* Effortless Banking Features Section */
+.effortless-banking {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.effortless-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.feature-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.download-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Footer Section */
+.footer {
+    padding: 40px 20px;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
