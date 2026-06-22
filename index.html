@@ -1,188 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parenthink - Your Parenting Companion</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Parenthink helps parents track growth, plan meals and activities, and stay organized with simple parenting tools.">
+  <title>Parenthink - Parenting Tools for Growth and Milestones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="logo">Parenthink</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-            <a href="#" class="btn">Download Now</a>
-        </nav>
-    </header>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Parenthink home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="img">
+            <path d="M12 21s-6.8-4.4-9.2-8.5C1 9.4 2.1 5.5 5.5 4.6c2-.5 3.6.3 4.5 1.7.9-1.4 2.5-2.2 4.5-1.7 3.4.9 4.5 4.8 2.7 7.9C18.8 16.6 12 21 12 21Z"/>
+          </svg>
+        </span>
+        <span>Parenthink</span>
+      </a>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Easily control your parenting journey with Parenthink</h1>
-            <p>From pregnancy tracking to parenting tips, Parenthink is your all-in-one solution crafted by parents for parents.</p>
-            <div class="store-buttons">
-                <a href="#"><img src="appstore.png" alt="App Store"></a>
-                <a href="#"><img src="playstore.png" alt="Google Play"></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Toggle navigation">
+      <label class="nav-toggle-button" for="nav-toggle" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <div class="nav-links">
+        <a href="#features">Key features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#download">Download</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero-section">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="section-grid hero-grid">
+        <div class="hero-copy">
+          <h1>Effortless parenting tools for growth and milestones.</h1>
+          <p>
+            Effortlessly track your child's growth and organize daily activities. Simplify your
+            parenting journey with expert tips and all-in-one tools.
+          </p>
+          <div class="store-row" aria-label="App store download links">
+            <a class="store-button" href="#download" aria-label="Download on the App Store">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 1.4c0 1.1-.4 2.2-1.1 3-.8.9-2.1 1.5-3.1 1.4-.1-1.1.4-2.3 1.1-3 .8-.8 2.1-1.5 3.1-1.4ZM20.5 17.1c-.5 1.2-.7 1.7-1.4 2.7-.9 1.4-2.2 3.2-3.7 3.2-1.4 0-1.8-.9-3.7-.9s-2.3.9-3.7.9c-1.6 0-2.8-1.6-3.7-3-2.5-4-2.8-8.6-1.2-11.1.9-1.4 2.3-2.3 3.7-2.3s2.2.9 3.4.9c1.1 0 1.8-.9 3.3-.9 1.2 0 2.5.7 3.4 1.8-3 1.6-2.5 5.8.4 6.7Z"/></svg>
+              <span><small>Download on the</small>App Store</span>
+            </a>
+            <a class="store-button" href="#download" aria-label="Get it on Google Play">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3.6 2.2c-.3.2-.5.6-.5 1.1v17.4c0 .5.2.9.5 1.1l9.3-9.8L3.6 2.2Z" fill="#34A853"/>
+                <path d="M16.5 8.6 12.9 12l3.6 3.4 4.1-2.3c.7-.4.7-1.4 0-1.8l-4.1-2.7Z" fill="#FBBC04"/>
+                <path d="M3.6 2.2 12.9 12l3.6-3.4L5.6 1.3c-.7-.4-1.5-.4-2 .9Z" fill="#EA4335"/>
+                <path d="m3.6 21.8 12.9-6.4L12.9 12l-9.3 9.8Z" fill="#4285F4"/>
+              </svg>
+              <span><small>Get it on</small>Google Play</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="phone-wrap" aria-label="Parenthink dashboard preview">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <div class="phone-notch"></div>
+              <div class="profile-row">
+                <span class="avatar"></span>
+                <span><strong>Jonathan</strong><small>4.7 years</small></span>
+                <span class="round-icon"></span>
+                <span class="round-icon sliders"></span>
+              </div>
+              <div class="progress"><span></span></div>
+              <p class="microcopy">Today: 2 activities completed, 3 upcoming</p>
+              <div class="activity-card">
+                <span class="meal-icon"></span>
+                <span><strong>Breakfast</strong><small>Meal | Meatball Taquitos</small></span>
+              </div>
+              <h3>Growth overview</h3>
+              <div class="stat-grid">
+                <div><span>12.8</span><small>kg<br>Weight</small></div>
+                <div><span>103</span><small>cm<br>Height</small></div>
+                <div><span>12.2</span><small>cm<br>Head circ.</small></div>
+              </div>
+              <h3>Activities</h3>
+              <p class="microcopy">Review calendar upcoming activities.</p>
             </div>
+          </div>
         </div>
-        <div class="hero-image">
-            <img src="app-mockup.png" alt="App Mockup">
-        </div>
+      </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
-        <h2>Discover the true potential of parenting</h2>
-        <div class="feature-grid">
-            <div class="feature-item">
-                <img src="feature1.png" alt="Feature 1">
-                <h3>Track Your Baby’s Growth</h3>
-                <p>Keep up with your child’s milestones with our easy-to-use tracker.</p>
-            </div>
-            <div class="feature-item">
-                <img src="feature2.png" alt="Feature 2">
-                <h3>Get Expert Advice</h3>
-                <p>Access tips and guides from parenting experts tailored to your needs.</p>
-            </div>
-            <div class="feature-item">
-                <img src="feature3.png" alt="Feature 3">
-                <h3>Connect with a Community</h3>
-                <p>Join a network of parents for support, tips, and advice.</p>
-            </div>
-        </div>
-        <a href="#" class="learn-more">Learn More</a>
+    <section class="companion-section" id="features">
+      <div class="section-heading">
+        <h2>The ultimate parenting companion</h2>
+        <p>
+          With <strong>Parenthink</strong>, say goodbye to uncertainty and endless searches.
+          Get everything you need in one app: track your child's growth, plan activities,
+          and receive expert tips to help your child thrive.
+        </p>
+      </div>
+      <div class="benefit-grid">
+        <article>
+          <span class="benefit-icon chart"></span>
+          <p>Tracking management to ensure you do not miss anything.</p>
+        </article>
+        <article>
+          <span class="benefit-icon sparkle"></span>
+          <p>A simple, beautifully designed app that is easy for parents to use.</p>
+        </article>
+        <article>
+          <span class="benefit-icon book"></span>
+          <p>Learn from expert parenting advice and educational resources.</p>
+        </article>
+        <article>
+          <span class="benefit-icon heart"></span>
+          <p>Parenting made easier for parents of all ages and experience levels.</p>
+        </article>
+      </div>
+      <a class="soft-button" href="#how-it-works">Explore features</a>
     </section>
 
-    <!-- Analytics Section -->
-    <section class="analytics">
-        <div class="analytics-image">
-            <img src="analytics-mockup.png" alt="Analytics Mockup">
+    <section class="feature-stack" id="how-it-works">
+      <article class="feature-row">
+        <div class="mini-phone dashboard">
+          <div class="mini-screen">
+            <h4>Dashboard</h4>
+            <div class="mini-card wide"></div>
+            <div class="mini-stats"><span></span><span></span><span></span></div>
+            <div class="mini-list"></div>
+          </div>
         </div>
-        <div class="analytics-text">
-            <h2>Manage your parenting journey and track progress</h2>
-            <ul>
-                <li><span>✔️</span> Track feeding, sleep, and more with easy-to-use tools.</li>
-                <li><span>✔️</span> Get detailed analytics to help you make informed parenting decisions.</li>
-            </ul>
+        <div>
+          <span class="eyebrow">Key feature</span>
+          <h2>Easily overall dashboard and setting</h2>
+          <p>
+            Get a clear overview of your child's progress and activities in one place. Easily
+            access growth tracking, upcoming tasks, and settings for a personalized experience.
+          </p>
         </div>
-    </section>
-    <!-- New Section: Realize Your Savings Goals -->
-    <section class="savings-goals">
-        <div class="savings-content">
-            <div class="savings-text">
-                <h2>Realize your savings goals with FinFlex</h2>
-                <p>Monitor your balance, set up automated payments, and explore additional options—all from a convenient and intuitive dashboard.</p>
-                <ul class="savings-features">
-                    <li><span>✔️</span> FAST TRANSACTIONS</li>
-                    <li><span>✔️</span> USER-FRIENDLY INTERFACE</li>
-                    <li><span>✔️</span> ROBUST SECURITY</li>
-                    <li><span>✔️</span> 24/7 ACCESS</li>
-                </ul>
-            </div>
-            <div class="savings-image">
-                <img src="savings-mockup.png" alt="Savings Mockup">
-            </div>
+      </article>
+
+      <article class="feature-row reverse">
+        <div class="mini-phone meals">
+          <div class="mini-screen">
+            <h4>Meal Planner</h4>
+            <div class="calendar-row"><span></span><span></span><span></span><span></span></div>
+            <div class="recipe-row"><span></span><span></span></div>
+            <div class="mini-card"></div>
+            <div class="mini-card"></div>
+          </div>
         </div>
+        <div>
+          <span class="eyebrow">Key feature</span>
+          <h2>Meal Planner</h2>
+          <p>
+            Plan nutritious meals with ease. Customize ingredients, schedule meals, and get
+            personalized recommendations based on your child's age.
+          </p>
+          <ul class="check-list">
+            <li>Browse through a variety of recipes.</li>
+            <li>Schedule meals for breakfast, lunch, dinner, or snacks.</li>
+            <li>Set reminders for mealtime to stay on track.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature-row">
+        <div class="mini-phone tracker">
+          <div class="mini-screen tracker-grid">
+            <h4>Tracker</h4>
+            <span>Meal</span>
+            <span>Homework</span>
+            <span>Pumping</span>
+            <span>Activities</span>
+            <span>Sleep</span>
+            <span>Growth</span>
+          </div>
+        </div>
+        <div>
+          <span class="eyebrow">Key feature</span>
+          <h2>Tracker</h2>
+          <p>
+            Stay organized by tracking essential areas of your child's life, from meals to sleep,
+            growth, and vaccinations. The all-in-one tracker helps you monitor milestones.
+          </p>
+        </div>
+      </article>
     </section>
 
-    <!-- New Section: Call to Action -->
-    <section class="cta">
-        <div class="cta-container">
-            <div class="cta-text">
-                <h2>Start managing your finances online with our application</h2>
-                <p>Check your balance, schedule recurring payments, and access a range of features—all from a single, intuitive dashboard.</p>
-                <div class="store-buttons">
-                    <a href="#"><img src="appstore.png" alt="App Store"></a>
-                    <a href="#"><img src="playstore.png" alt="Google Play"></a>
-                </div>
-            </div>
-            <div class="cta-image">
-                <img src="cta-mockup.png" alt="CTA Mockup">
-            </div>
-        </div>
-    </section>
-    <!-- Effortless Banking Features Section -->
-    <section class="effortless-banking">
-        <div class="effortless-content">
-            <h2>Make mobile banking effortless with FinFlex</h2>
-            <div class="feature-grid">
-                <div class="feature-item">
-                    <span>🔄</span>
-                    <h3>INSTANT PAYMENTS</h3>
-                    <p>Join our platform for seamless transactions and stay ahead with the latest payment solutions.</p>
-                </div>
-                <div class="feature-item">
-                    <span>🕒</span>
-                    <h3>REAL-TIME NOTIFICATIONS</h3>
-                    <p>Stay informed instantly with updates on your transactions and account activity.</p>
-                </div>
-                <div class="feature-item">
-                    <span>🔒</span>
-                    <h3>SECURE AUTHENTICATION</h3>
-                    <p>Protect your data with industry-leading security protocols and stay connected to our secure network.</p>
-                </div>
-                <div class="feature-item">
-                    <span>💸</span>
-                    <h3>AUTOMATED SAVINGS</h3>
-                    <p>Set up automatic savings plans and watch your funds grow effortlessly while staying engaged with our community.</p>
-                </div>
-                <div class="feature-item">
-                    <span>📊</span>
-                    <h3>PERSONALIZED INSIGHTS</h3>
-                    <p>Get tailored insights into your financial habits, and make smarter decisions with our intuitive tools.</p>
-                </div>
-                <div class="feature-item">
-                    <span>💳</span>
-                    <h3>ONE-CLICK PAYMENTS</h3>
-                    <p>Simplify your transactions with one-click payments, making your financial management quick and easy.</p>
-                </div>
-            </div>
-            <a href="#" class="download-button">Download Now</a>
-        </div>
+    <section class="faq-section" aria-labelledby="faq-title">
+      <div>
+        <h2 id="faq-title">FAQ</h2>
+        <details open>
+          <summary>How does Parenthink help track my child's growth?</summary>
+          <p>Parenthink lets you log and monitor height, weight, and other growth milestones over time.</p>
+        </details>
+        <details>
+          <summary>Can I customize activities for my child?</summary>
+          <p>Yes. You can plan meals, playtime, naps, and learning activities around your child's routine.</p>
+        </details>
+        <details>
+          <summary>Is Parenthink available on both iOS and Android?</summary>
+          <p>Parenthink works on the web today, with native iOS and Android apps on the way.</p>
+        </details>
+        <details>
+          <summary>Can I set reminders for my child's daily tasks?</summary>
+          <p>Yes. Set gentle reminders for meals, medication, vaccinations, homework, and more.</p>
+        </details>
+      </div>
+      <div class="faq-visual" aria-hidden="true">
+        <span class="trophy"></span>
+      </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="finflex-logo.png" alt="FinFlex Logo">
-                <p>© All rights reserved</p>
-            </div>
-            <div class="footer-links">
-                <div class="footer-column">
-                    <h4>Sections</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Features</h4>
-                    <ul>
-                        <li><a href="#">Integrations</a></li>
-                        <li><a href="#">Templates</a></li>
-                        <li><a href="#">Changelog</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Follow us</h4>
-                    <ul class="social-icons">
-                        <li><a href="#"><img src="twitter-icon.png" alt="Twitter"></a></li>
-                        <li><a href="#"><img src="producthunt-icon.png" alt="Product Hunt"></a></li>
-                    </ul>
-                </div>
-            </div>
+    <section class="download-section" id="download">
+      <div>
+        <h2>Sign up for expert tips and advice!</h2>
+        <p>Stay updated with the latest parenting insights and guidance, delivered straight to your inbox.</p>
+        <form class="signup-form" action="#" method="post">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="Enter email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="download-note">Or download the app</p>
+        <div class="store-row centered" aria-label="App store download links">
+          <a class="store-button" href="#" aria-label="Download on the App Store">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 1.4c0 1.1-.4 2.2-1.1 3-.8.9-2.1 1.5-3.1 1.4-.1-1.1.4-2.3 1.1-3 .8-.8 2.1-1.5 3.1-1.4ZM20.5 17.1c-.5 1.2-.7 1.7-1.4 2.7-.9 1.4-2.2 3.2-3.7 3.2-1.4 0-1.8-.9-3.7-.9s-2.3.9-3.7.9c-1.6 0-2.8-1.6-3.7-3-2.5-4-2.8-8.6-1.2-11.1.9-1.4 2.3-2.3 3.7-2.3s2.2.9 3.4.9c1.1 0 1.8-.9 3.3-.9 1.2 0 2.5.7 3.4 1.8-3 1.6-2.5 5.8.4 6.7Z"/></svg>
+            <span><small>Download on the</small>App Store</span>
+          </a>
+          <a class="store-button" href="#" aria-label="Get it on Google Play">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3.6 2.2c-.3.2-.5.6-.5 1.1v17.4c0 .5.2.9.5 1.1l9.3-9.8L3.6 2.2Z" fill="#34A853"/>
+              <path d="M16.5 8.6 12.9 12l3.6 3.4 4.1-2.3c.7-.4.7-1.4 0-1.8l-4.1-2.7Z" fill="#FBBC04"/>
+              <path d="M3.6 2.2 12.9 12l3.6-3.4L5.6 1.3c-.7-.4-1.5-.4-2 .9Z" fill="#EA4335"/>
+              <path d="m3.6 21.8 12.9-6.4L12.9 12l-9.3 9.8Z" fill="#4285F4"/>
+            </svg>
+            <span><small>Get it on</small>Google Play</span>
+          </a>
         </div>
-    </footer>
+      </div>
+    </section>
+  </main>
 
+  <footer class="site-footer">
+    <div>
+      <a class="brand" href="#top" aria-label="Parenthink home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="img">
+            <path d="M12 21s-6.8-4.4-9.2-8.5C1 9.4 2.1 5.5 5.5 4.6c2-.5 3.6.3 4.5 1.7.9-1.4 2.5-2.2 4.5-1.7 3.4.9 4.5 4.8 2.7 7.9C18.8 16.6 12 21 12 21Z"/>
+          </svg>
+        </span>
+        <span>Parenthink</span>
+      </a>
+      <p>Effortless parenting tools for growth and milestones.</p>
+      <small>© 2026 Parenthink. All rights reserved.</small>
+    </div>
+    <div>
+      <h3>Support</h3>
+      <a href="mailto:hello@parenthink.com">hello@parenthink.com</a>
+      <a href="#faq-title">FAQ</a>
+    </div>
+    <div>
+      <h3>Connect</h3>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
 </body>
 </html>
